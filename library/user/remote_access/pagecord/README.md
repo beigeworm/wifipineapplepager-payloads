@@ -48,6 +48,8 @@ pass="password"
 
 *Once this is done you can run the payload again and you should get a 'session waiting' message in discord. Only your user ID will be able to interact with the session.*
 
+*The bot will NOT appear online - this is because the payload simply queries the Discord API and is expected behaviour..*
+
 ## Commands
 
 **These commands are case sensitive!**
@@ -63,9 +65,11 @@ sysinfo    - Show basic system information
 
 close    - Close this session permanently
 
-download   - Send a file to Discord \[download path/to/file.txt]
+download   - Send a file to Discord [download path/to/file.txt]
 
-upload     - Upload file to Pager \[attach to 'upload' command]
+upload     - Upload file to Pager [attach to 'upload' command]
+
+readme     - Show a readme file in markdown format [readme path/to/README.md]
 ```
 
 **OR You can just use the channel as a basic shell**
